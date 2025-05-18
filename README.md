@@ -8,74 +8,68 @@
 
 ### sudo apt install golang-go ###
 
-![image](https://github.com/user-attachments/assets/186812aa-aedd-429d-b92d-ef72466d0869)
+![fabrication 1](https://github.com/user-attachments/assets/082cc7fc-019f-4343-92b1-2dd52827d260)
+![fb 3](https://github.com/user-attachments/assets/b42b5935-ab32-4b77-bb5f-9ecb1addbce7)
 
-# 2. Check Docker Version
+
+
+# Check Docker Version
 
 ### docker --version ###
+![fb 2](https://github.com/user-attachments/assets/d06c3e18-ffa7-46f8-8cc9-91fb9073ff95)
 
-![image](https://github.com/user-attachments/assets/dda0ef68-9214-4568-9b2d-a9ca36d8c2a0)
 
-# 3. Check Docker Compose Version
 
-### docker-compose --version ###
-![image](https://github.com/user-attachments/assets/3f413d15-4656-4a36-aff3-6502b2dad186)
+# 
 
-# 4. List Directory Contents
 
-### ls ###
+### fabric cloning ###
+![fb4](https://github.com/user-attachments/assets/db7aaff8-979f-4aa2-8d72-e0df45b0a57e)
 
-![image](https://github.com/user-attachments/assets/b7678241-0831-419a-91f3-6ff72b0bac2d)
 
-# 5. Clone the Fabric Samples Repository
 
-### git clone -b main https://github.com/hyperledger/fabric-samples.git ###
+#  List Directory Contents
 
-![image](https://github.com/user-attachments/assets/10cf23d7-abee-464c-8f46-86c33f08e927)
+### change directory to test network
 
-# 6. Change Directory to fabric-samples
 
-### cd fabric-samples ###
+![fb5](https://github.com/user-attachments/assets/8e90b60b-10f1-4259-bff3-06a1b70be0bd)
 
-![image](https://github.com/user-attachments/assets/2c947b9a-99cd-49ee-88b1-dd91ff309180)
 
-# 7. Download Fabric Binaries and Docker Images
 
-### curl -sSL https://bit.ly/2ysbOFE | bash -s ###
+### network.sh down
 
-![image](https://github.com/user-attachments/assets/fd30afdd-cdd4-43f4-a1d0-eaf127dd9e12)
-![image](https://github.com/user-attachments/assets/570049b4-a9bf-4c09-8c37-e44ae8ac7305)
+![fb6](https://github.com/user-attachments/assets/b5c0719e-664f-4c27-98b1-75337b4de156)
 
-# 8. Change Directory to test-network
 
-#### cd test-network ###
 
-![image](https://github.com/user-attachments/assets/091162b3-f76a-429b-aa9a-620ae2fc5a5d)
 
-# 9. Check Network Script Help
+### cd fabric- ###
 
-### ./network.sh ###
+![fb7](https://github.com/user-attachments/assets/11fe426f-afbd-42e8-8edf-438310734e92)
 
-![image](https://github.com/user-attachments/assets/b201a79c-aa9e-4353-86c9-d34defecdb25)
-![image](https://github.com/user-attachments/assets/3ac9eb7e-078b-42ea-9eec-a68cef015872)
+## check network script help
+![fb7 1](https://github.com/user-attachments/assets/086d1240-08b9-4f1b-92f8-630e6b66bd93)
 
-# 10. Start the Test Network
 
-### ./network.sh up ###
 
-![image](https://github.com/user-attachments/assets/53b0b471-e535-4436-8f5b-a3ce65043c0d)
-![image](https://github.com/user-attachments/assets/2f6bdea1-6992-42de-b0a5-430f28c5ac10)
 
-# 11. Create a Channel in the Network
+
+
+
+# . Create a Channel in the Network
+
+![fb 8 create channel](https://github.com/user-attachments/assets/0739a397-fe51-49b8-a2b1-5c11084579d1)
+
+
 
 ### ./network.sh createChannel ###
+![fb9](https://github.com/user-attachments/assets/23d025ef-c094-4cf7-a211-a1ee345bd1c8)
 
-![image](https://github.com/user-attachments/assets/0bc3e841-ce5a-4f72-874d-e6ec010048a2)
-![image](https://github.com/user-attachments/assets/bb4a1099-f89c-421c-8cb8-d26b47d55c19)
-![image](https://github.com/user-attachments/assets/0d6fa312-fb34-40ee-8981-8f36fdb49030)
 
 # 12. Shut Down the Network
 
 ### ./network.sh down ###
 
-![image](https://github.com/user-attachments/assets/fdfec789-8c78-4d6a-a771-1ca660ce4824)
+![fb10](https://github.com/user-attachments/assets/8fe9620f-f1f7-4320-a771-d933193393fe)
+
